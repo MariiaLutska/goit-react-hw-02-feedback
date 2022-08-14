@@ -3,7 +3,9 @@ import styled from 'styled-components';
 
 export const Button = styled.button`
 border-radius: ${p => p.theme.radii.normal};
-gap: 20px;
+margin: 10px;
+padding: 10px;
+justify-content: center;
 &:hover {
     transform: scale(1.3);
     background-color: ${state => {

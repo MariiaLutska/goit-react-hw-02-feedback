@@ -2,8 +2,8 @@ export const theme = {
   colors: {
     text: 'bleck',
     accent: 'green',
-    background: 'yellow',
-    primary: 'orange',
+    background: 'lightyellow',
+    primary: '#36c446',
     secondary: 'orangered',
     muted: '#f7f7f7',
   },
@@ -34,7 +34,7 @@ export const theme = {
   },
   radii: {
     none: '0',
-    normal: '20px',
+    normal: '10px',
     round: '50%',
   },
 };

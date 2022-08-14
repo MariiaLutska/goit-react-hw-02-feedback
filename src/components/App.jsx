@@ -9,7 +9,7 @@ import {Notification} from './Notification/Notification';
 import { Box } from './Box';
 
 
-// const Text = styled.p`
+// const Section = styled.p`
 // color: ${p => p.theme.colors.accent};
 // font-family: ${p => p.theme.fonts.body};
 // font-size: ${p => p.theme.fontSizes.l}px;
@@ -52,6 +52,7 @@ export class App extends Component {
        justifyContent="center"
        alignItems="center"
        border="normal"
+       background="lightyellow"
      width="50%">
        <Section title="Please leave feedback">
           <FeedbackOptions

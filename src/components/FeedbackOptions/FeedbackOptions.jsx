@@ -3,7 +3,7 @@ import { Button } from './FeedbackOptions.styled';
 
 export const FeedbackOptions = ({ options, onLeaveFeedback }) => {
     return (
-        <Box justifyContent="center">
+        <Box justifyContent="center" display="flex">
             {options.map(name => {
                 return (
                     <Button
