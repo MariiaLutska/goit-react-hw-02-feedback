@@ -30,11 +30,11 @@ export const theme = {
   },
   borders: {
     none: 'none',
-    normal: '1px solid',
+    normal: '1px solid black',
   },
   radii: {
     none: '0',
-    normal: '4px',
+    normal: '20px',
     round: '50%',
   },
 };
